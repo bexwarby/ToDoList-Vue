@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color:white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+th, td {
+    border: 2px dashed green;
+    padding: 20px;
+    text-align: center;
+}
+h2 {
+    font-variant: small-caps;
+    color: #00ff27;
+}
+form {
+    margin: 20px;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    font-size: larger;
+}
+.input {
+    margin-right: 10px;
+}
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline;
+    border: 4px dashed rgb(116 197 137);
+    box-shadow: 10px 10px 2px yellowgreen;
+    flex-wrap: wrap;
+    background-color: #423d3d;
+    color: white;
+    border-radius: 10%;
+    margin: 0 30px;
+}
+.list {
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+hr {
+   color:white; 
+}
+.length {
+    font-size: smaller;
+}
+span:hover {
+    background-color: aquamarine;
+    color: black
+}
+.delete {
+    background-color: red;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.progress {
+    background-color: rgb(115, 212, 147);
+    border-radius: 10px;
+    margin-left: 10px;
+}
